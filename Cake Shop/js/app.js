@@ -104,8 +104,7 @@ storeItemsContainer.addEventListener("click", function (e) {
     // console.log(srcImg.join("/"))
     const item = `<div class="cart-item d-flex justify-content-between text-capitalize my-3">
         <img src="${srcImg.join(
-          "/"
-        )}" class="img-fluid rounded-circle" id="item-img" alt="">
+"/")}" class="img-fluid rounded-circle" id="item-img" alt="">
         <div class="item-text">
 
           <p id="cart-item-title" class="font-weight-bold mb-0">${
